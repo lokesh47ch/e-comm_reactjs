@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    /* background: #9b4d4d; */
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.sort_btn{
+    padding: 0.8rem 1rem;
+    border: none;
+    color: black;
+    background-color: #f6f8fa;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active {
+    background-color: black;
+    color:  #f6f8fa;
+}
+
+.product_data p{
+   font-size: .7rem;
+   font-weight: bold;
+   color: #9f9f9f;
+}

@@ -1,0 +1,42 @@
+
+
+
+.container {
+  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 9rem 0; */
+  background-color: #f6f8fa;
+  
+}
+
+.common_heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+    text-transform: capitalize;
+  }
+
+  
+  .intro_data {
+    margin-top:5rem;
+    text-transform: uppercase;
+    color: #5138ee;
+    font-size: 2rem;
+  }
+
+
+
+
+
+.comp_box{
+    display: flex;
+    /* height: 90%; */
+    width:90%;
+    /* background-color: #451919; */
+    justify-content: space-between;
+    padding: 1rem 0;
+
+}

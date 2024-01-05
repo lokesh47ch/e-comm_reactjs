@@ -1,0 +1,14 @@
+
+    .container {
+      display: flex;
+      width: 80%;
+      flex-wrap: wrap;
+      /* background-color: #de7c7c; */
+      gap: 1rem;
+    }
+
+    .inner{
+        flex: 30%;
+       max-width: 30%;
+    }
+   

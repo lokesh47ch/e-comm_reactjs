@@ -1,0 +1,77 @@
+  *{
+    box-sizing: border-box;
+  
+  }
+  
+  .container{
+  box-sizing: border-box;
+    width: 100%;
+    /* background-color: #523333; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    /* grid-template-columns: repeat(4, 1fr) 0.3fr; */
+    text-align: center;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+
+  .container figure img {
+    max-width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+    color: transparent;
+  }
+  
+  
+  /* img {
+    max-width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    color: transparent;
+  } */
+
+  .color{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+  }
+
+  .item_info{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* width: 30%; */
+    /* background-color: #e4a5a5; */
+    
+  }
+
+  .item_info p {
+    font-size: 0.8rem;
+  }
+
+  .item_info span {
+    font-size: 0.5rem;
+  }
+
+  .item_info figure{
+    /* background-color: #db5050; */
+    margin-left: 0rem;
+  }
+
+.innerBoxes{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    text-align: center;
+
+}
+
+.remove_btn{
+    font-size: 1.5rem;
+    color: #e74c3c;
+    cursor: pointer;
+    background-color: #fff;
+}

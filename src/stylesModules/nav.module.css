@@ -1,0 +1,113 @@
+.navbar,
+.ShowNavbar{
+    display: flex;
+    gap: 2rem;
+    /* background-color: blue; */
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+    
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+ a{
+    font-size: 1rem;
+}
+
+.loginBtn{
+    text-decoration: none;
+    /* max-width: auto; */
+    background-color: rgb(98 84 243);
+    color: rgb(255 255 255);
+    padding: 1.0rem 2.0rem;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+    
+}
+
+.loginBtn:hover {
+    /* box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%); */
+    box-shadow: rgba(0, 0, 0, 0.99) 5px 5px 4px;
+    transform: scale(1.01);
+}
+
+.loginBtn:active {
+    /* box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 0px;
+    transform: scale(0.9);
+}
+
+.activeLink{
+    color: rgb(214, 43, 43);
+
+    
+}
+
+.item_number{
+    background-color: #fff;
+    font-size: 0.8rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(255 255 255);
+    position: absolute;
+    top:-1.8rem;
+    right: -0.8rem;
+    
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .navbar{
+        display: none;
+        
+      
+
+    }
+
+    .links{
+        color: black;
+    }
+
+    .ShowNavbar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 233px;
+        width: 100%;
+       
+        z-index: 2;
+        
+        background-color:  #9fb3c8;
+        /* margin-top: 300px; */
+        width: 100vh;
+        height:80vh;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        overflow-y: hidden;
+       
+    }
+}
+
+
+
+ @media only screen and (min-width: 781px){
+    .navbar{
+        display: flex;
+        /* gap: 2rem; */
+        margin-right: 10px;
+           }
+} 
+

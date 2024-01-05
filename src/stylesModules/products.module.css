@@ -1,0 +1,43 @@
+ .container {
+   
+    background-color: #f6f8fa;
+   
+
+    display: flex;
+    /* flex-direction: column; */
+    height: auto;
+    margin: 3rem auto; 
+    width: 80%;
+    /* flex-wrap:wrap; */
+    justify-content: space-between;
+    
+ }
+
+ .left_box{
+   flex:20%;
+   max-width: 20%;
+ }
+
+ .right_box{
+
+
+
+ }
+ .sort{
+   
+   width: auto;
+ }
+
+ .productlist{  
+   width: auto;
+   display: flex;
+   justify-content: space-evenly;
+   margin: auto;
+   margin-top: 1rem;
+   /* background-color: #e43232; */
+   
+
+}
+
+  
+ 

@@ -1,0 +1,52 @@
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    background-color:  #F6F8FA;
+    padding: 3rem 0;
+    text-align: center;
+    margin-bottom: 5rem;
+    /* height: 10rem; */
+   
+}
+
+.innerContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 10rem; */
+    margin: auto;
+   width: 80%;
+   flex-wrap: wrap;
+    
+}
+
+.comp_logo{
+    text-align: center;
+    /* background-color: gray; */
+    
+   
+    
+    
+}
+
+@media only screen and (max-width:780px){
+    .innerContainer{
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .comp_logo{
+        flex:50%;
+        max-width: 40%;
+        margin: 10px;
+        
+        
+        /* background-color: salmon; */
+    }
+}
+
+
+
+
+

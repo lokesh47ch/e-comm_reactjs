@@ -1,0 +1,96 @@
+.container {
+  
+    /* background-color: #b36767; */
+    border-radius: 1rem;
+    width:70%;
+    height: 100%;
+    margin: 1rem auto;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    gap: 3rem;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+.box {
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    width: 70%;
+    /* flex-wrap: wrap; */
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d5d7d8 ;
+    margin: auto;
+}
+  
+    .card_data {
+        /* flex: 50%; */
+      padding: 1rem 2rem;
+      /* background-color: #5a5757; */
+      height: auto;
+      max-width: 50%;
+      /* margin-top: -2rem */
+    }
+  
+   
+  
+     h3 {
+      color: #8490ff;
+      text-transform: capitalize;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+  
+     .card_data_price {
+      color: #a2a8df;
+      font-size: 0.8rem;
+    }
+  
+   
+    
+      /* a {
+        color: rgb(98 84 243);
+        font-size: 1.4rem;
+        text-decoration: none;
+      } */
+
+     .container figure {
+        /* flex: 50%; */
+        max-width:80%;
+     
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.5s linear;
+        background-color: #240202;
+      }
+      .container figure::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          transition: all 0.2s linear;
+          cursor: pointer;
+        }
+        .container figure:hover::after {
+          width: 100%;
+        }
+        .container figure:hover img {
+          transform: scale(1.2);
+        }
+        .container figure img {
+          max-width: 100%;
+          /* margin-top: 1.5rem; */
+          /* height: 20rem; */
+          transition: all 0.2s linear;
+        }
+      
+       
+      
+    
